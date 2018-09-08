@@ -1,0 +1,88 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "admin",
+          "password": "123abc123",
+          "Isvalid": "false"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/logintestdata.json",
+        "description": "data fetching from json File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readJson",
+        "resultFileName": "ReadJson",
+        "sheetName": "",
+        "sign": "SampleTest.readJson(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@130f889]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536221690403,
+      "duration": 7,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "username": "Admin",
+          "password": "test",
+          "Isvalid": "false"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/logintestdata.json",
+        "description": "data fetching from json File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readJson",
+        "resultFileName": "ReadJsonxGPcuHKJjj",
+        "sheetName": "",
+        "sign": "SampleTest.readJson(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@130f889]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536221690451,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "username": "admin",
+          "password": "admin123",
+          "Isvalid": "true"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/logintestdata.json",
+        "description": "data fetching from json File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readJson",
+        "resultFileName": "ReadJsonVmJwMmYICo",
+        "sheetName": "",
+        "sign": "SampleTest.readJson(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@130f889]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536221690473,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

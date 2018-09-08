@@ -1,0 +1,5 @@
+user_name,password,isvalid
+ruchita.shah@gmail.com,pwdtest,true
+ruchita.shah@gmail.com,wrongpwd,false
+wronguser@domain.com,pwdtest,false
+wronguser@domain.com,wrongpwd,false 

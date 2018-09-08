@@ -1,0 +1,295 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 07 17:11:47 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (532 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=ashish.biradar1, designation=Automation Lead, password=Test@1234, band=5B, location=, project=}<br/>
+<a href="#Output-1735507635" onClick='toggleBox("Output-1735507635", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1735507635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1735507635">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=abc1234, designation=Employee, password=Test@1234, band=6A, location=Ahmedabad, project=}<br/>
+<a href="#Output-135640095" onClick='toggleBox("Output-135640095", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-135640095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-135640095">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=aaa.rrrr, designation=Ass QA Engg, password=Test@1234, band=6B, location=Ahmedabad, project=ABCD12}<br/>
+<a href="#Output-1632682988" onClick='toggleBox("Output-1632682988", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1632682988" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1632682988">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=abc.abc, designation=Automation Engineer, password=Test@1234, band=6A, location=Ahmedabad2, project=ABCD12,Nest Test}<br/>
+<a href="#Output-231756373" onClick='toggleBox("Output-231756373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-231756373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-231756373">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=aaaaa, designation=Ex employee, password=Test@1234, band=NA, location=, project=}<br/>
+<a href="#Output-522553046" onClick='toggleBox("Output-522553046", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-522553046" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-522553046">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=abcd.abcd, designation=Assoc Software Engineer, password=Test@1234, band=7, location=Ahmedabad2, project=}<br/>
+<a href="#Output-1521083627" onClick='toggleBox("Output-1521083627", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1521083627" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1521083627">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=abhilasha.deolikar, designation=Project Manager, password=Test@1234, band=4, location=, project=}<br/>
+<a href="#Output-328827614" onClick='toggleBox("Output-328827614", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-328827614" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-328827614">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=tushit.shah, designation=Employee, password=tushit.shah, band=, location=, project=}<br/>
+<a href="#Output-2110756088" onClick='toggleBox("Output-2110756088", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2110756088" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2110756088">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=keshav.kumar, designation=Delivery manager, password=keshav.kumar, band=1, location=Ahmedabad, project=}<br/>
+<a href="#Output-1714078840" onClick='toggleBox("Output-1714078840", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1714078840" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1714078840">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=mehul, designation=IT, password=mehul@1234, band=2, location=Ahmedabad, project=}<br/>
+<a href="#Output-1199262943" onClick='toggleBox("Output-1199262943", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1199262943" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1199262943">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=test.emp5, designation=Assoc Software Engineer, password=Test@1234, band=7, location=Santa Clara US, project=}<br/>
+<a href="#Output-590845366" onClick='toggleBox("Output-590845366", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-590845366" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-590845366">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=test.emp6, designation=Assoc Software Engineer, password=Test@1234, band=7, location=London, project=}<br/>
+<a href="#Output-511707818" onClick='toggleBox("Output-511707818", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-511707818" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-511707818">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=gaurav.parekh, designation=HR, password=gaurav.parekh, band=, location=, project=}<br/>
+<a href="#Output-164974746" onClick='toggleBox("Output-164974746", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-164974746" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-164974746">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=apexa.bhatt, designation=Configure Visa, password=apexa.bhatt, band=, location=, project=}<br/>
+<a href="#Output-1020520290" onClick='toggleBox("Output-1020520290", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1020520290" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1020520290">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=piyush.sharma, designation=Automation Engineer, password=piyush.sharma, band=6A, location=Ahmedabad, project=Nest Test}<br/>
+<a href="#Output-1092004553" onClick='toggleBox("Output-1092004553", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1092004553" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1092004553">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=emp.test.2, designation=Configure Visa, password=emp.test.2, band=, location=London, project=}<br/>
+<a href="#Output-366873404" onClick='toggleBox("Output-366873404", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-366873404" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-366873404">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=emp.test.1, designation=, password=emp.test.1, band=, location=Santa Clara, project=}<br/>
+<a href="#Output-1006094903" onClick='toggleBox("Output-1006094903", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1006094903" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1006094903">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {user_name=Virat Kohali, designation=, password=Virat Kohali, band=, location=London, project=}<br/>
+<a href="#Output-1261153343" onClick='toggleBox("Output-1261153343", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1261153343" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1261153343">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@4c15e7fd</td></tr>
+</table><p>
+</body>
+</html>

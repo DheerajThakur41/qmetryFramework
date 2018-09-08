@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 06 17:01:06 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15928 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.nestTestPractice()'><b>nestTestPractice</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (nestTestPractice)<br>Test method: nest Login Test<br/>
+<a href="#Output-1866768727" onClick='toggleBox("Output-1866768727", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1866768727" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1866768727">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open the nest application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I login with 'abc1234' and password 'Test1234'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'abc1234' into 'login.username.txtBx'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Test1234' into 'login.password.txtBx'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'login.submit.Btn'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then It should be on homepage <a href="../img/NestTestPractice_z8zen5mjy00x16735.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>assert 'home.logo.img' is present</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Expected By.xpath: //img[@class='logo_placement'] present : Actual By.xpath: //img[@class='logo_placement'] not present <a href="../img/NestTestPractice_13bo7ijz66grv16734.png" target="_blank">[View Screenshot]</a> </div><div  class="fail"><span class="fail-label">F </span>java.lang.AssertionError</div></div><div  class="fail"><span class="fail-label">F </span>null</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError
+	at .Then It should be on homepage(scenarios/nest-suite.bdd:5)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertPresent(QAFExtendedWebElement.java:1019)
+	at com.qmetry.qaf.automation.step.CommonStep.assertPresent_aroundBody8(CommonStep.java:142)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.qmetry.qaf.automation.step.CommonStep.assertPresent(CommonStep.java:141)
+	at com.nest.automation.steps.Loginsteps.verifyLogin_aroundBody4(Loginsteps.java:23)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.nest.automation.steps.Loginsteps.verifyLogin(Loginsteps.java:22)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:159)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:225)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1866768727", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1866768727'><pre>java.lang.AssertionError
+	at .Then It should be on homepage(scenarios/nest-suite.bdd:5)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertPresent(QAFExtendedWebElement.java:1019)
+	at com.qmetry.qaf.automation.step.CommonStep.assertPresent_aroundBody8(CommonStep.java:142)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.qmetry.qaf.automation.step.CommonStep.assertPresent(CommonStep.java:141)
+	at com.nest.automation.steps.Loginsteps.verifyLogin_aroundBody4(Loginsteps.java:23)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.nest.automation.steps.Loginsteps.verifyLogin(Loginsteps.java:22)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:159)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:225)
+</pre></div></td>
+<td>15</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

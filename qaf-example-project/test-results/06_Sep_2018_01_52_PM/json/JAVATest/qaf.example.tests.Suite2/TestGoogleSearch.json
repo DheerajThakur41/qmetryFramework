@@ -1,0 +1,139 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 365
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Git Repository QAF, txt.searchbox]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 0.013513316258203734-1",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"0.013513316258203734-1\",\"value\":[\"Git Repository QAF\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 135
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[btn.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@value='Google Search'], using=xpath}"
+          ],
+          "result": "id: 0.013513316258203734-2",
+          "subLogs": [],
+          "duration": 49
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //input[@value='Google Search']",
+            "{\"id\":\"0.013513316258203734-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 771
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyLinkWithPartialTextPresent",
+      "args": [
+        "[qaf]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qaf, using=partial link text}"
+          ],
+          "result": "[id: 0.5671027248242362-1, id: 0.5671027248242362-2]",
+          "subLogs": [],
+          "duration": 123
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 366,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'Git Repository QAF' into 'txt.searchbox'",
+      "type": "TestStepPass",
+      "duration": 164,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'btn.search'",
+      "type": "TestStepPass",
+      "duration": 822,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "verify link with partial text 'qaf' is present",
+      "type": "TestStepPass",
+      "duration": 385,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.partialLinkText: qaf present : Actual By.partialLinkText: qaf present",
+          "type": "Pass",
+          "screenshot": "../img/TestGoogleSearch_7gm3vtkvrb8g55099.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

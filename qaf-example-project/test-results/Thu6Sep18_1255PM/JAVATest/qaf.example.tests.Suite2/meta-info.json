@@ -1,0 +1,23 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "test Google Search",
+        "groups": [
+          "SMOKE"
+        ],
+        "name": "testGoogleSearch",
+        "resultFileName": "TestGoogleSearch",
+        "sign": "Suite2.testGoogleSearch()[pri:0, instance:qaf.example.tests.Suite2@50de0926]"
+      },
+      "dependsOn": [],
+      "startTime": 1536218713374,
+      "duration": 6182,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

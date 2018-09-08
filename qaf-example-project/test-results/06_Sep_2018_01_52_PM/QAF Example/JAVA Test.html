@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>TestNG:  JAVA Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>JAVA Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 06 13:52:53 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7487 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='qaf.example.tests.Suite1.testGoogleSearch()'><b>testGoogleSearch</b><br>Test class: qaf.example.tests.Suite1<br>Test method: Sample Test Scenario<br/>
+<a href="#Output-359742806" onClick='toggleBox("Output-359742806", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-359742806" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-359742806">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Git repository QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify link with partial text 'qmetry/qaf' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.partialLinkText: qmetry/qaf present : Actual By.partialLinkText: qmetry/qaf present <a href="../img/TestGoogleSearch_1ohyeb6yt2kxq55098.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>qaf.example.tests.Suite1@7364985f</td></tr>
+<tr>
+<td title='qaf.example.tests.Suite2.testGoogleSearch()'><b>testGoogleSearch</b><br>Test class: qaf.example.tests.Suite2<br>Test method: test Google Search<br/>
+<a href="#Output-1971519316" onClick='toggleBox("Output-1971519316", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1971519316" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1971519316">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Git Repository QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify link with partial text 'qaf' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.partialLinkText: qaf present : Actual By.partialLinkText: qaf present <a href="../img/TestGoogleSearch_7gm3vtkvrb8g55099.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>qaf.example.tests.Suite2@5d20e46</td></tr>
+</table><p>
+</body>
+</html>

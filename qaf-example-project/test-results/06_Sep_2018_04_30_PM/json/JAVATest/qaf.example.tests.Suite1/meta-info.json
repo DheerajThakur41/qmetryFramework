@@ -1,0 +1,23 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Sample Test Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "name": "testGoogleSearch",
+        "resultFileName": "TestGoogleSearch",
+        "sign": "Suite1.testGoogleSearch()[pri:0, instance:qaf.example.tests.Suite1@6a472554]"
+      },
+      "dependsOn": [],
+      "startTime": 1536231662712,
+      "duration": 14663,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

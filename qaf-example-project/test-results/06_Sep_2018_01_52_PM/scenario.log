@@ -1,0 +1,34 @@
+13:52:46 scenario.file.loc[Ljava.lang.String;@704a52ec
+13:52:46 loading BDD file: D:\Etc\qaf-example-project-skeleton\qaf-example-project\.\scenarios\suite1.bdd
+13:52:46 total test found: 1
+13:52:46 
+
+Executing scenario: SampleTest - Sample Test Scenario
+13:52:46 pkg: com.qmetry.qaf.automation.step
+13:52:46 pkg: qaf.example.steps
+13:52:46 Found duplicate step to load [] with [lower] prority then []
+13:52:46 Invoking Teststep: Given get '/' with arguments: [/]
+13:52:51 Completed Teststep: Given get '/' with arguments: [/]
+13:52:51 Invoking Teststep: When sendKeys 'Git reporsitory QAF' into 'txt.searchbox' with arguments: [Git reporsitory QAF, txt.searchbox]
+13:52:51 Completed Teststep: When sendKeys 'Git reporsitory QAF' into 'txt.searchbox' with arguments: [Git reporsitory QAF, txt.searchbox]
+13:52:51 Invoking Teststep: And click on 'btn.search' with arguments: [btn.search]
+13:52:53 Completed Teststep: And click on 'btn.search' with arguments: [btn.search]
+13:52:53 Invoking Teststep: Then verify link with partial text 'GitHub' is present with arguments: [GitHub]
+13:52:53 Completed Teststep: Then verify link with partial text 'GitHub' is present with arguments: [GitHub]
+13:52:53 Competed scenario: SampleTest with status SUCESS
+13:52:53 Invoking Teststep: get {url} with arguments: [/]
+13:52:57 Completed Teststep: get {url} with arguments: [/]
+13:52:57 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Git repository QAF, txt.searchbox]
+13:52:57 Completed Teststep: sendKeys {text} into {loc} with arguments: [Git repository QAF, txt.searchbox]
+13:52:57 Invoking Teststep: click on {loc} with arguments: [btn.search]
+13:52:59 Completed Teststep: click on {loc} with arguments: [btn.search]
+13:52:59 Invoking Teststep: verify link with partial text {linkText} is present with arguments: [qmetry/qaf]
+13:52:59 Completed Teststep: verify link with partial text {linkText} is present with arguments: [qmetry/qaf]
+13:52:59 Invoking Teststep: get {url} with arguments: [/]
+13:52:59 Completed Teststep: get {url} with arguments: [/]
+13:52:59 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Git Repository QAF, txt.searchbox]
+13:52:59 Completed Teststep: sendKeys {text} into {loc} with arguments: [Git Repository QAF, txt.searchbox]
+13:52:59 Invoking Teststep: click on {loc} with arguments: [btn.search]
+13:53:00 Completed Teststep: click on {loc} with arguments: [btn.search]
+13:53:00 Invoking Teststep: verify link with partial text {linkText} is present with arguments: [qaf]
+13:53:01 Completed Teststep: verify link with partial text {linkText} is present with arguments: [qaf]

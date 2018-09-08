@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When sendKeys 'Git reporsitory QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on 'btn.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify link with partial text 'GitHub' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.partialLinkText: GitHub present : Actual By.partialLinkText: GitHub present <a href="../img/SampleTest_hti12vh0s8uo5554.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAF Example" duration-ms="7158" started-at="2018-09-06T08:20:07Z" finished-at="2018-09-06T08:20:14Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.suite1.bdd.SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="SampleTest" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="7158" started-at="2018-09-06T08:20:07Z" finished-at="2018-09-06T08:20:14Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupSuit" is-config="true" duration-ms="24" started-at="2018-09-06T13:50:07Z" finished-at="2018-09-06T13:50:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@341b80b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupTest" is-config="true" duration-ms="1" started-at="2018-09-06T13:50:07Z" finished-at="2018-09-06T13:50:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@341b80b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setup" is-config="true" duration-ms="1" started-at="2018-09-06T13:50:07Z" finished-at="2018-09-06T13:50:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@341b80b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T13:50:07Z" finished-at="2018-09-06T13:50:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@341b80b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="SampleTest" duration-ms="7056" started-at="2018-09-06T13:50:07Z" description="Sample Test Scenario" finished-at="2018-09-06T13:50:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When sendKeys 'Git reporsitory QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on 'btn.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify link with partial text 'GitHub' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.partialLinkText: GitHub present : Actual By.partialLinkText: GitHub present <a href="../img/SampleTest_hti12vh0s8uo5554.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SampleTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T13:50:14Z" finished-at="2018-09-06T13:50:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@341b80b2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SampleTest status=SUCCESS method=scenarios.suite1.bdd.SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When sendKeys 'Git reporsitory QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on 'btn.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify link with partial text 'GitHub' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.partialLinkText: GitHub present : Actual By.partialLinkText: GitHub present <a href="../img/SampleTest_hti12vh0s8uo5554.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-06T13:50:14Z" finished-at="2018-09-06T13:50:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@341b80b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterTest" is-config="true" duration-ms="67" started-at="2018-09-06T13:50:14Z" finished-at="2018-09-06T13:50:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@341b80b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterSuit" is-config="true" duration-ms="2" started-at="2018-09-06T13:50:14Z" finished-at="2018-09-06T13:50:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@341b80b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAF Example -->
+</testng-results>

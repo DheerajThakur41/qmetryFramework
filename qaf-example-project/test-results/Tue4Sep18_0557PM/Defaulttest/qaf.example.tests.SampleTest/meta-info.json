@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.data",
+        "description": "data Fetching from Xml File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXml",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536064066952,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

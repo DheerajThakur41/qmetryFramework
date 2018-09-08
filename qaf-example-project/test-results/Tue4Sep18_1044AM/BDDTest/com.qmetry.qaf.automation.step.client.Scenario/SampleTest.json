@@ -1,0 +1,221 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1557
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Git r, txt.searchbox]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 0.1920293822100596-1",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"0.1920293822100596-1\",\"value\":[\"Git r\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 75
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[btn.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=btnK, using=name}"
+          ],
+          "result": "id: 0.1920293822100596-2",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: btnK",
+            "{\"id\":\"0.1920293822100596-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 832
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyLinkWithPartialTextPresent",
+      "args": [
+        "[qmetry/qaf]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 129
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 114
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 120
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 123
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 111
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 109
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 114
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 118
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 123
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 118
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 4549,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When sendKeys 'Git r' into 'txt.searchbox'",
+      "type": "TestStepPass",
+      "duration": 118,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'btn.search'",
+      "type": "TestStepPass",
+      "duration": 854,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify link with partial text 'qmetry/qaf' is present",
+      "type": "TestStepFail",
+      "screenshot": "img/SampleTest_2hze0nt4vlx420115.png",
+      "duration": 10478,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.partialLinkText: qmetry/qaf present : Actual By.partialLinkText: qmetry/qaf not present",
+          "type": "Fail",
+          "screenshot": "img/SampleTest_2hze0nt4vlx420115.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

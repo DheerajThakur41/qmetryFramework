@@ -1,0 +1,14 @@
+{
+  "reports": [
+    {
+      "name": "QAF Example",
+      "dir": "test-results/03_Sep_2018_03_31_PM/json",
+      "startTime": 1535968904684
+    },
+    {
+      "name": "QAF Example",
+      "dir": "test-results/03_Sep_2018_03_16_PM/json",
+      "startTime": 1535967999120
+    }
+  ]
+}

@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-QAF_Example">
+              <span class="suite-name border-failed">QAF Example</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-QAF_Example">
+                    <span>D:\Etc\qaf-example-project-skeleton\qaf-example-project\config\testrun_config.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-QAF_Example">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-QAF_Example">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-QAF_Example">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-QAF_Example">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-QAF_Example">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-QAF_Example">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 1 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-QAF_Example" class="hide-methods failed suite-QAF_Example"> (hide)</a> <!-- hide-methods failed suite-QAF_Example -->
+                      <a href="#" panel-name="suite-QAF_Example" class="show-methods failed suite-QAF_Example"> (show)</a> <!-- show-methods failed suite-QAF_Example -->
+                    </span>
+                    <div class="method-list-content failed suite-QAF_Example">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.Suite1" hash-for-method="testGoogleSearch">testGoogleSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-QAF_Example -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-QAF_Example" class="hide-methods passed suite-QAF_Example"> (hide)</a> <!-- hide-methods passed suite-QAF_Example -->
+                      <a href="#" panel-name="suite-QAF_Example" class="show-methods passed suite-QAF_Example"> (show)</a> <!-- show-methods passed suite-QAF_Example -->
+                    </span>
+                    <div class="method-list-content passed suite-QAF_Example">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="com.qmetry.qaf.automation.step.client.Scenario" hash-for-method="SampleTest">SampleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=&lt;/root&gt;})">readXml({<root>=</root>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=	&lt;!-- Data for login Test --&gt;})">readXml({<root>=	<!-- Data for login Test -->})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=		&lt;Isvalid&gt;true&lt;/Isvalid&gt;})">readXml({<root>=		<Isvalid>true</Isvalid>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=		&lt;password&gt;aravotest&lt;/password&gt;})">readXml({<root>=		<password>aravotest</password>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=	&lt;data&gt;})">readXml({<root>=	<data>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=		&lt;user_name&gt;ruchit.mittal1985@yahoo.com&lt;/user_name&gt;})">readXml({<root>=		<user_name>ruchit.mittal1985@yahoo.com</user_name>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=		&lt;Isvalid&gt;false&lt;/Isvalid&gt;})">readXml({<root>=		<Isvalid>false</Isvalid>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=		&lt;user_name&gt;ruchit.shah1989@gmail.com&lt;/user_name&gt;})">readXml({<root>=		<user_name>ruchit.shah1989@gmail.com</user_name>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=	&lt;/data&gt;})">readXml({<root>=	</data>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=		&lt;password&gt;wrongpwd&lt;/password&gt;})">readXml({<root>=		<password>wrongpwd</password>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=		&lt;password&gt;manoneet&lt;/password&gt;})">readXml({<root>=		<password>manoneet</password>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=	&lt;!-- file may contain other data --&gt;})">readXml({<root>=	<!-- file may contain other data -->})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=		&lt;user_name&gt;wornguser@domain.com&lt;/user_name&gt;})">readXml({<root>=		<user_name>wornguser@domain.com</user_name>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=	&lt;/data&gt;})">readXml({<root>=	</data>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=		&lt;Isvalid&gt;false&lt;/Isvalid&gt;})">readXml({<root>=		<Isvalid>false</Isvalid>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=	&lt;/data&gt;})">readXml({<root>=	</data>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=	&lt;data&gt;})">readXml({<root>=	<data>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAF_Example" title="qaf.example.tests.SampleTest" hash-for-method="readXml({&lt;root&gt;=	&lt;data&gt;})">readXml({<root>=	<data>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-QAF_Example -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-QAF_Example" class="panel QAF_Example">
+          <div class="suite-QAF_Example-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">qaf.example.tests.Suite1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGoogleSearch">
+                  </a> <!-- testGoogleSearch -->
+                  <span class="method-name">testGoogleSearch</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;input value=&quot;Google Search&quot; aria-label=&quot;Google Search&quot; name=&quot;btnK&quot; type=&quot;submit&quot; jsaction=&quot;sf.chk&quot;&gt; is not clickable at point (440, 411). Other element would receive the click: &lt;div class=&quot;sbqs_c&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL10361&apos;, ip: &apos;10.12.41.174&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50673}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\DHEERA~1.KUM\AppData\Local\Temp\scoped_dir2752_22670}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5be21513fb2844ffca25c11ce2f96db9
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:258)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.qmetry.qaf.automation.step.CommonStep.click_aroundBody38(CommonStep.java:460)
+	at com.qmetry.qaf.automation.step.CommonStep$AjcClosure39.run(CommonStep.java:1)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:459)
+	at qaf.example.tests.Suite1.testGoogleSearch(Suite1.java:13)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Sample Test Scenario)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QAF_Example-class-failed -->
+          <div class="suite-QAF_Example-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qaf.example.tests.SampleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=&lt;/root&gt;})">
+                  </a> <!-- readXml({<root>=</root>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=</root>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=	&lt;!-- Data for login Test --&gt;})">
+                  </a> <!-- readXml({<root>=	<!- Data for login Test ->}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=	<!-- Data for login Test -->})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=		&lt;Isvalid&gt;true&lt;/Isvalid&gt;})">
+                  </a> <!-- readXml({<root>=		<Isvalid>true</Isvalid>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=		<Isvalid>true</Isvalid>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=		&lt;password&gt;aravotest&lt;/password&gt;})">
+                  </a> <!-- readXml({<root>=		<password>aravotest</password>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=		<password>aravotest</password>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=	&lt;data&gt;})">
+                  </a> <!-- readXml({<root>=	<data>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=	<data>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=		&lt;user_name&gt;ruchit.mittal1985@yahoo.com&lt;/user_name&gt;})">
+                  </a> <!-- readXml({<root>=		<user_name>ruchit.mittal1985@yahoo.com</user_name>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=		<user_name>ruchit.mittal1985@yahoo.com</user_name>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=		&lt;Isvalid&gt;false&lt;/Isvalid&gt;})">
+                  </a> <!-- readXml({<root>=		<Isvalid>false</Isvalid>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=		<Isvalid>false</Isvalid>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=		&lt;user_name&gt;ruchit.shah1989@gmail.com&lt;/user_name&gt;})">
+                  </a> <!-- readXml({<root>=		<user_name>ruchit.shah1989@gmail.com</user_name>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=		<user_name>ruchit.shah1989@gmail.com</user_name>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=	&lt;/data&gt;})">
+                  </a> <!-- readXml({<root>=	</data>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=	</data>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=		&lt;password&gt;wrongpwd&lt;/password&gt;})">
+                  </a> <!-- readXml({<root>=		<password>wrongpwd</password>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=		<password>wrongpwd</password>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=		&lt;password&gt;manoneet&lt;/password&gt;})">
+                  </a> <!-- readXml({<root>=		<password>manoneet</password>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=		<password>manoneet</password>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=	&lt;!-- file may contain other data --&gt;})">
+                  </a> <!-- readXml({<root>=	<!- file may contain other data ->}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=	<!-- file may contain other data -->})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=		&lt;user_name&gt;wornguser@domain.com&lt;/user_name&gt;})">
+                  </a> <!-- readXml({<root>=		<user_name>wornguser@domain.com</user_name>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=		<user_name>wornguser@domain.com</user_name>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=	&lt;/data&gt;})">
+                  </a> <!-- readXml({<root>=	</data>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=	</data>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=		&lt;Isvalid&gt;false&lt;/Isvalid&gt;})">
+                  </a> <!-- readXml({<root>=		<Isvalid>false</Isvalid>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=		<Isvalid>false</Isvalid>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=	&lt;/data&gt;})">
+                  </a> <!-- readXml({<root>=	</data>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=	</data>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=	&lt;data&gt;})">
+                  </a> <!-- readXml({<root>=	<data>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=	<data>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readXml({&lt;root&gt;=	&lt;data&gt;})">
+                  </a> <!-- readXml({<root>=	<data>}) -->
+                  <span class="method-name">readXml</span>
+                  <span class="parameters">({<root>=	<data>})</span>
+                  <em>
+(data Fetching from Xml File)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QAF_Example-class-passed -->
+          <div class="suite-QAF_Example-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.Scenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SampleTest">
+                  </a> <!-- SampleTest -->
+                  <span class="method-name">SampleTest</span>
+                  <em>
+(Sample Test Scenario)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QAF_Example-class-passed -->
+        </div> <!-- panel QAF_Example -->
+        <div panel-name="test-xml-QAF_Example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Etc\qaf-example-project-skeleton\qaf-example-project\config\testrun_config.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;QAF Example&quot;&gt;
+  &lt;test name=&quot;BDD Test&quot;&gt;
+    &lt;method-selectors&gt;
+      &lt;method-selector&gt;
+        &lt;selector-class name=&quot;com.qmetry.qaf.automation.testng.pro.QAFMethodSelector&quot; priority=&quot;1&quot;/&gt;
+      &lt;/method-selector&gt;
+    &lt;/method-selectors&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qmetry.qaf.automation.step.client.text.BDDTestFactory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BDD Test --&gt;
+  &lt;test name=&quot;JAVA Test&quot;&gt;
+    &lt;method-selectors&gt;
+      &lt;method-selector&gt;
+        &lt;selector-class name=&quot;com.qmetry.qaf.automation.testng.pro.QAFMethodSelector&quot; priority=&quot;1&quot;/&gt;
+      &lt;/method-selector&gt;
+    &lt;/method-selectors&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;qaf.example.tests&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qaf.example.tests.SampleTest&quot;/&gt;
+      &lt;class name=&quot;qaf.example.tests.Suite1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- JAVA Test --&gt;
+&lt;/suite&gt; &lt;!-- QAF Example --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QAF_Example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QAF Example</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BDD Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">JAVA Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QAF_Example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QAF Example</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">SMOKE</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SampleTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGoogleSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QAF_Example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QAF Example</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QAF_Example');
+function tableData_QAF_Example() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SampleTest')
+data.setCell(0, 2, 'com.qmetry.qaf.automation.step.client.Scenario')
+data.setCell(0, 3, 7774);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGoogleSearch')
+data.setCell(1, 2, 'qaf.example.tests.Suite1')
+data.setCell(1, 3, 4178);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'readXml')
+data.setCell(2, 2, 'qaf.example.tests.SampleTest')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'readXml')
+data.setCell(3, 2, 'qaf.example.tests.SampleTest')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'readXml')
+data.setCell(4, 2, 'qaf.example.tests.SampleTest')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'readXml')
+data.setCell(5, 2, 'qaf.example.tests.SampleTest')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'readXml')
+data.setCell(6, 2, 'qaf.example.tests.SampleTest')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'readXml')
+data.setCell(7, 2, 'qaf.example.tests.SampleTest')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'readXml')
+data.setCell(8, 2, 'qaf.example.tests.SampleTest')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'readXml')
+data.setCell(9, 2, 'qaf.example.tests.SampleTest')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'readXml')
+data.setCell(10, 2, 'qaf.example.tests.SampleTest')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'readXml')
+data.setCell(11, 2, 'qaf.example.tests.SampleTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'readXml')
+data.setCell(12, 2, 'qaf.example.tests.SampleTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'readXml')
+data.setCell(13, 2, 'qaf.example.tests.SampleTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'readXml')
+data.setCell(14, 2, 'qaf.example.tests.SampleTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'readXml')
+data.setCell(15, 2, 'qaf.example.tests.SampleTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'readXml')
+data.setCell(16, 2, 'qaf.example.tests.SampleTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'readXml')
+data.setCell(17, 2, 'qaf.example.tests.SampleTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'readXml')
+data.setCell(18, 2, 'qaf.example.tests.SampleTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'readXml')
+data.setCell(19, 2, 'qaf.example.tests.SampleTest')
+data.setCell(19, 3, 0);
+window.suiteTableData['QAF_Example']= { tableData: data, tableDiv: 'times-div-QAF_Example'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-QAF_Example">
+              </div> <!-- times-div-QAF_Example -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QAF_Example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QAF Example</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SampleTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When sendKeys 'Git reporsitory QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on 'btn.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify link with partial text 'GitHub' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.partialLinkText: GitHub present : Actual By.partialLinkText: GitHub present <a href="../img/SampleTest_q71ho4aqv1tl25928.png" target="_blank">[View Screenshot]</a> </div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=</root>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=	<!-- Data for login Test -->})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=		<Isvalid>true</Isvalid>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=		<password>aravotest</password>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=	<data>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=		<user_name>ruchit.mittal1985@yahoo.com</user_name>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=		<Isvalid>false</Isvalid>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=		<user_name>ruchit.shah1989@gmail.com</user_name>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=	</data>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=		<password>wrongpwd</password>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=		<password>manoneet</password>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=	<!-- file may contain other data -->})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=		<user_name>wornguser@domain.com</user_name>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=	</data>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=		<Isvalid>false</Isvalid>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=	</data>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=	<data>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readXml({<root>=	<data>})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGoogleSearch</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Git repository QAF' into 'txt.searchbox'</div><div  class="teststepfail"><span class="teststepfail-label">T </span>click on 'btn.search' <a href="../img/TestGoogleSearch_zflnm3bf19a225929.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>org.openqa.selenium.WebDriverException: unknown error: Element <input value="Google Search" aria-label="Google Search" name="btnK" type="submit" jsaction="sf.chk"> is not clickable at point (440, 411). Other element would receive the click: <div class="sbqs_c">...</div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50673}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\DHEERA~1.KUM\AppData\Local\Temp\scoped_dir2752_22670}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5be21513fb2844ffca25c11ce2f96db9</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QAF_Example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">7 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">qaf.example.tests.SampleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testGoogleSearch</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+                <span class="ignored-method-name">readJson</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">qaf.example.tests.Suite1</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupTest</span>
+                <br/>
+                <span class="ignored-method-name">setupSuit</span>
+                <br/>
+                <span class="ignored-method-name">afterSuit</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QAF_Example" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaf.example.tests.SampleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@50a7bc6e)</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@50a7bc6e)</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@50a7bc6...)</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SampleTest</span>
+                <span class="method-start">42 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@50a7bc6e, [TestResult name=SampleTest status=SUCCESS method=scenarios.suite1.b...)</span>
+                <span class="method-start">7832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@50a7bc6e)</span>
+                <span class="method-start">7833 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@50a7bc6e)</span>
+                <span class="method-start">7835 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaf.example.tests.SampleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">7952 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">7955 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">7965 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=	<!-- Data for login Test -->})</span>
+                <span class="method-start">7966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">7981 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">7983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=	<data>})</span>
+                <span class="method-start">7984 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8002 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=		<user_name>ruchit.shah1989@gmail.com</user_name>})</span>
+                <span class="method-start">8004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8017 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=		<password>aravotest</password>})</span>
+                <span class="method-start">8018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8033 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=		<Isvalid>true</Isvalid>})</span>
+                <span class="method-start">8036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=	</data>})</span>
+                <span class="method-start">8054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8066 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=	<data>})</span>
+                <span class="method-start">8068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8082 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8083 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=		<user_name>ruchit.mittal1985@yahoo.com</user_name>})</span>
+                <span class="method-start">8083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=		<password>manoneet</password>})</span>
+                <span class="method-start">8102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8117 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=		<Isvalid>false</Isvalid>})</span>
+                <span class="method-start">8119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8132 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8133 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=	</data>})</span>
+                <span class="method-start">8134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8151 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8152 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=	<data>})</span>
+                <span class="method-start">8153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8167 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=		<user_name>wornguser@domain.com</user_name>})</span>
+                <span class="method-start">8170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8186 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=		<password>wrongpwd</password>})</span>
+                <span class="method-start">8188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=		<Isvalid>false</Isvalid>})</span>
+                <span class="method-start">8208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8232 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=	</data>})</span>
+                <span class="method-start">8237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8259 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=	<!-- file may contain other data -->})</span>
+                <span class="method-start">8261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.SampleTest.readXml(java.util.Map), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readXml({<root>=</root>})</span>
+                <span class="method-start">8278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=readXml status=SUCCESS method=SampleTest.readXml(ja...)</span>
+                <span class="method-start">8298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8299 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaf.example.tests.Suite1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8300 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void qaf.example.tests.Suite1.testGoogleSearch(), org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">8301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGoogleSearch</span>
+                <span class="method-start">8302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5af97850, [TestResult name=testGoogleSearch status=FAILURE method=Suite1.testG...)</span>
+                <span class="method-start">12773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">12773 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaf.example.tests.SampleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">12774 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuit(org.testng.TestRunner@5af97850)</span>
+                <span class="method-start">12839 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

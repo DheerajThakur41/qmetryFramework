@@ -1,0 +1,296 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://10.12.40.86/nest_security_testing/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1320
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "login",
+      "args": [
+        "[${user_name}, ${password}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=username, using=name}"
+          ],
+          "result": "id: 0.6942216164273929-1",
+          "subLogs": [],
+          "duration": 200
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: username",
+            "{\"id\":\"0.6942216164273929-1\",\"value\":[\"ashish.biradar1\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 136
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Test@1234, login.password.txtBx]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=password, using=name}"
+              ],
+              "result": "id: 0.6942216164273929-2",
+              "subLogs": [],
+              "duration": 20
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.name: password",
+                "{\"id\":\"0.6942216164273929-2\",\"value\":[\"Test@1234\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 85
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[login.submit.Btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//button[@type='submit'], using=xpath}"
+              ],
+              "result": "id: 0.6942216164273929-3",
+              "subLogs": [],
+              "duration": 18
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //button[@type='submit']",
+                "{\"id\":\"0.6942216164273929-3\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 64
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "homePageTest",
+      "args": [
+        "[${name}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[contains(text(),'Ashish')], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[contains(text(),'Ashish')], using=xpath}"
+          ],
+          "result": "[id: 0.6611495459579235-1]",
+          "subLogs": [],
+          "duration": 108
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[contains(text(),'Ashish')], using=xpath}"
+          ],
+          "result": "id: 0.6611495459579235-1",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[contains(text(),'Ashish')]",
+            "{\"id\":\"0.6611495459579235-1\"}"
+          ],
+          "result": "getElementText:Ashish Biradar",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[contains(text(),'Ashish')], using=xpath}"
+          ],
+          "result": "id: 0.6611495459579235-1",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[contains(text(),'Ashish')]",
+            "{\"id\":\"0.6611495459579235-1\"}"
+          ],
+          "result": "getElementText:Ashish Biradar",
+          "subLogs": [],
+          "duration": 16
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "logoutFromApp",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@title='Log out'], using=xpath}"
+          ],
+          "result": "[id: 0.6611495459579235-2]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@title='Log out'], using=xpath}"
+          ],
+          "result": "id: 0.6611495459579235-2",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@title='Log out']",
+            "{\"id\":\"0.6611495459579235-2\"}"
+          ],
+          "result": "unknown error: Element <div title=\"Log out\" id=\"logout_btn1\" class=\"logout_btn_adjust1 border_left header_logout_container\" ng-click=\"ShellCtrl.logout();\">...</div> is not clickable at point (978, 33). Other element would receive the click: <div class=\"box_body loader ng-scope zindex\" ng-show=\"loading\" ng-class=\"{ 'zindex': loading}\">...</div>\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 53 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58775}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\DHEERA~1.KUM\\AppData\\Local\\Temp\\scoped_dir10960_9767}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 146175be1abb08765fbda90e3107afc4",
+          "subLogs": [],
+          "duration": 65
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@title='Log out'], using=xpath}"
+          ],
+          "result": "[id: 0.6611495459579235-2]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@title='Log out'], using=xpath}"
+          ],
+          "result": "id: 0.6611495459579235-2",
+          "subLogs": [],
+          "duration": 10
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open the nest application",
+      "type": "TestStepPass",
+      "duration": 5433,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I login with 'ashish.biradar1' and password 'Test@1234'",
+      "type": "TestStepPass",
+      "duration": 562,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'Test@1234' into 'login.password.txtBx'",
+          "type": "TestStepPass",
+          "duration": 105,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'login.submit.Btn'",
+          "type": "TestStepPass",
+          "duration": 83,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I should be on homepage 'Ashish'",
+      "type": "TestStepPass",
+      "duration": 1591,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //div[contains(text(),'Ashish')] text should be Contains:Ashish : Actual By.xpath: //div[contains(text(),'Ashish')] text is Ashish Biradar",
+          "type": "Pass",
+          "screenshot": "img/NestTestPractice_1w27tqcoe89gi58146.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I Logout from APP",
+      "type": "TestStepFail",
+      "screenshot": "img/NestTestPractice_1bxpguxbyn14b58147.png",
+      "duration": 573,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "unknown error: Element <div title=\"Log out\" id=\"logout_btn1\" class=\"logout_btn_adjust1 border_left header_logout_container\" ng-click=\"ShellCtrl.logout();\">...</div> is not clickable at point (978, 33). Other element would receive the click: <div class=\"box_body loader ng-scope zindex\" ng-show=\"loading\" ng-class=\"{ 'zindex': loading}\">...</div>\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 402 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58775}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\DHEERA~1.KUM\\AppData\\Local\\Temp\\scoped_dir10960_9767}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 146175be1abb08765fbda90e3107afc4",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: unknown error: Element <div title=\"Log out\" id=\"logout_btn1\" class=\"logout_btn_adjust1 border_left header_logout_container\" ng-click=\"ShellCtrl.logout();\">...</div> is not clickable at point (978, 33). Other element would receive the click: <div class=\"box_body loader ng-scope zindex\" ng-show=\"loading\" ng-class=\"{ 'zindex': loading}\">...</div>\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 402 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58775}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\DHEERA~1.KUM\\AppData\\Local\\Temp\\scoped_dir10960_9767}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 146175be1abb08765fbda90e3107afc4\r\n\tat .And I Logout from APP(scenarios/nest-suite.bdd:6)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:258)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.nest.automation.steps.Loginsteps.logoutFromApp(Loginsteps.java:43)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:159)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)\r\n"
+}

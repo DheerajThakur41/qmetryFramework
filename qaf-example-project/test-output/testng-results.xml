@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open the nest application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I login with 'ashish.biradar1' and password 'Test@1234'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Test@1234' into 'login.password.txtBx'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'login.submit.Btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should be on homepage 'Ashish'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //div[contains(text(),'Ashish')] text should be Contains:Ashish : Actual By.xpath: //div[contains(text(),'Ashish')] text is Ashish Biradar <a href="img/NestTestPractice_1obmapexka4hp42277.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And I Logout from APP <a href="img/NestTestPractice_1xng90rb8mszo42278.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>unknown error: Element <div title="Log out" id="logout_btn1" class="logout_btn_adjust1 border_left header_logout_container" ng-click="ShellCtrl.logout();">...</div> is not clickable at point (978, 33). Other element would receive the click: <div class="box_body loader ng-scope zindex" ng-show="loading" ng-class="{ 'zindex': loading}">...</div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59330}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\DHEERA~1.KUM\AppData\Local\Temp\scoped_dir8112_584}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cf2c3b22996d21828cce119fe68e724a</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAF Example" duration-ms="8585" started-at="2018-09-08T05:02:01Z" finished-at="2018-09-08T05:02:10Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.nest-suite.bdd.nestTestPractice( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="nestTestPractice" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="8585" started-at="2018-09-08T05:02:01Z" finished-at="2018-09-08T05:02:10Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="nestTestPractice" name="setupSuit" is-config="true" duration-ms="23" started-at="2018-09-08T10:32:01Z" finished-at="2018-09-08T10:32:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65fb9ffc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="nestTestPractice" name="setupTest" is-config="true" duration-ms="2" started-at="2018-09-08T10:32:01Z" finished-at="2018-09-08T10:32:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65fb9ffc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="nestTestPractice" name="setup" is-config="true" duration-ms="1" started-at="2018-09-08T10:32:01Z" finished-at="2018-09-08T10:32:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65fb9ffc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="nestTestPractice" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-08T10:32:01Z" finished-at="2018-09-08T10:32:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@65fb9ffc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="nestTestPractice" test-instance-name="nestTestPractice" signature="nestTestPractice( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="FAIL" duration-ms="8165" finished-at="2018-09-08T10:32:10Z" started-at="2018-09-08T10:32:01Z" data-provider="scenariodp" description="nest Login Test">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{user_name=ashish.biradar1, name=Ashish, designation=Automation Lead, password=Test@1234, band=5B, location=, project=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <div title="Log out" id="logout_btn1" class="logout_btn_adjust1 border_left header_logout_container" ng-click="ShellCtrl.logout();">...</div> is not clickable at point (978, 33). Other element would receive the click: <div class="box_body loader ng-scope zindex" ng-show="loading" ng-class="{ 'zindex': loading}">...</div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59330}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\DHEERA~1.KUM\AppData\Local\Temp\scoped_dir8112_584}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cf2c3b22996d21828cce119fe68e724a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <div title="Log out" id="logout_btn1" class="logout_btn_adjust1 border_left header_logout_container" ng-click="ShellCtrl.logout();">...</div> is not clickable at point (978, 33). Other element would receive the click: <div class="box_body loader ng-scope zindex" ng-show="loading" ng-class="{ 'zindex': loading}">...</div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59330}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\DHEERA~1.KUM\AppData\Local\Temp\scoped_dir8112_584}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cf2c3b22996d21828cce119fe68e724a
+	at .And I Logout from APP(scenarios/nest-suite.bdd:6)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:258)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.nest.automation.steps.Loginsteps.logoutFromApp(Loginsteps.java:44)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:159)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open the nest application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I login with 'ashish.biradar1' and password 'Test@1234'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Test@1234' into 'login.password.txtBx'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'login.submit.Btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should be on homepage 'Ashish'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //div[contains(text(),'Ashish')] text should be Contains:Ashish : Actual By.xpath: //div[contains(text(),'Ashish')] text is Ashish Biradar <a href="img/NestTestPractice_1obmapexka4hp42277.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And I Logout from APP <a href="img/NestTestPractice_1xng90rb8mszo42278.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>unknown error: Element <div title="Log out" id="logout_btn1" class="logout_btn_adjust1 border_left header_logout_container" ng-click="ShellCtrl.logout();">...</div> is not clickable at point (978, 33). Other element would receive the click: <div class="box_body loader ng-scope zindex" ng-show="loading" ng-class="{ 'zindex': loading}">...</div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59330}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\DHEERA~1.KUM\AppData\Local\Temp\scoped_dir8112_584}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cf2c3b22996d21828cce119fe68e724a</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- nestTestPractice -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="nestTestPractice" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-09-08T10:32:10Z" finished-at="2018-09-08T10:32:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65fb9ffc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=nestTestPractice status=FAILURE method=scenarios.nest-suite.bdd.nestTestPractice( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open the nest application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I login with 'ashish.biradar1' and password 'Test@1234'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Test@1234' into 'login.password.txtBx'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'login.submit.Btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should be on homepage 'Ashish'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //div[contains(text(),'Ashish')] text should be Contains:Ashish : Actual By.xpath: //div[contains(text(),'Ashish')] text is Ashish Biradar <a href="img/NestTestPractice_1obmapexka4hp42277.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And I Logout from APP <a href="img/NestTestPractice_1xng90rb8mszo42278.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>unknown error: Element <div title="Log out" id="logout_btn1" class="logout_btn_adjust1 border_left header_logout_container" ng-click="ShellCtrl.logout();">...</div> is not clickable at point (978, 33). Other element would receive the click: <div class="box_body loader ng-scope zindex" ng-show="loading" ng-class="{ 'zindex': loading}">...</div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59330}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\DHEERA~1.KUM\AppData\Local\Temp\scoped_dir8112_584}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cf2c3b22996d21828cce119fe68e724a</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="nestTestPractice" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-08T10:32:10Z" finished-at="2018-09-08T10:32:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65fb9ffc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="nestTestPractice" name="afterTest" is-config="true" duration-ms="62" started-at="2018-09-08T10:32:10Z" finished-at="2018-09-08T10:32:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65fb9ffc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="nestTestPractice" name="afterSuit" is-config="true" duration-ms="2" started-at="2018-09-08T10:32:10Z" finished-at="2018-09-08T10:32:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65fb9ffc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAF Example -->
+</testng-results>

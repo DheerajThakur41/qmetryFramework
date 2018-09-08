@@ -1,0 +1,19 @@
+16:35:50 scenario.file.loc[Ljava.lang.String;@57e1b0c
+16:35:50 loading BDD file: D:\Etc\qaf-example-project-skeleton\qaf-example-project\.\scenarios\nest-suite.bdd
+16:35:50 total test found: 1
+16:35:50 
+
+Executing scenario: nestTestPractice - nest Login Test
+16:35:50 pkg: com.qmetry.qaf.automation.step
+16:35:50 pkg: qaf.example.steps
+16:35:50 Found duplicate step to load [] with [lower] prority then []
+16:35:50 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="I open the nest application")
+public void iOpenTheNestApplication(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+16:35:50 Competed scenario: nestTestPractice with status FAILURE

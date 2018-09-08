@@ -1,0 +1,11 @@
+<suite name="QAF Example" Verbose="0">
+	<test name="JAVA Test">
+		<classes>
+			<class name="qaf.example.tests.SampleTest" />
+			<methods>
+				<include name="readXml" />
+			</methods>
+		</classes>
+		<!-- <packages> <package name="qaf.example.tests" /> </packages> -->
+	</test>
+</suite>

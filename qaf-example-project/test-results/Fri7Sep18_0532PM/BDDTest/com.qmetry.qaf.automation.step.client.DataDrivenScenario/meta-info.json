@@ -1,0 +1,132 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "user_name": "ashish.biradar1",
+          "name": "Ashish",
+          "designation": "Automation Lead",
+          "password": "Test@1234",
+          "band": "5B",
+          "location": "",
+          "project": ""
+        }
+      ],
+      "metaData": {
+        "description": "nest Login Test",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "login.data",
+        "lineNo": 1.0,
+        "name": "nestTestPractice",
+        "referece": "scenarios/nest-suite.bdd",
+        "resultFileName": "NestTestPractice",
+        "sign": "scenarios.nest-suite.bdd.nestTestPractice( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1536321767566,
+      "duration": 9789,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "user_name": "abc1234",
+          "name": "abc12",
+          "designation": "Employee",
+          "password": "Test@1234",
+          "band": "6A",
+          "location": "Ahmedabad",
+          "project": ""
+        }
+      ],
+      "metaData": {
+        "description": "nest Login Test",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "login.data",
+        "lineNo": 1.0,
+        "name": "nestTestPractice",
+        "referece": "scenarios/nest-suite.bdd",
+        "resultFileName": "NestTestPracticeZSFxKvxikw",
+        "sign": "scenarios.nest-suite.bdd.nestTestPractice( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1536321777378,
+      "duration": 10699,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "user_name": "aaa.rrrr",
+          "name": "aaa",
+          "designation": "Ass QA Engg",
+          "password": "Test@1234",
+          "band": "6B",
+          "location": "Ahmedabad",
+          "project": "ABCD12"
+        }
+      ],
+      "metaData": {
+        "description": "nest Login Test",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "login.data",
+        "lineNo": 1.0,
+        "name": "nestTestPractice",
+        "referece": "scenarios/nest-suite.bdd",
+        "resultFileName": "NestTestPracticemnQQiXfjuZ",
+        "sign": "scenarios.nest-suite.bdd.nestTestPractice( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1536321788428,
+      "duration": 10786,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 4,
+      "type": "test",
+      "args": [
+        {
+          "user_name": "abc.abc",
+          "name": "abc",
+          "designation": "Automation Engineer",
+          "password": "Test@1234",
+          "band": "6A",
+          "location": "Ahmedabad2",
+          "project": "ABCD12,Nest Test"
+        }
+      ],
+      "metaData": {
+        "description": "nest Login Test",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "login.data",
+        "lineNo": 1,
+        "name": "nestTestPractice",
+        "referece": "scenarios/nest-suite.bdd",
+        "resultFileName": "NestTestPracticeDLCMANQiZj",
+        "sign": "scenarios.nest-suite.bdd.nestTestPractice( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1536321799572,
+      "duration": 9584,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 451
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Git repository QAF, txt.searchbox]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 0.6341672646094851-1",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"0.6341672646094851-1\",\"value\":[\"Git repository QAF\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 165
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[btn.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@value='Google Search'], using=xpath}"
+          ],
+          "result": "id: 0.6341672646094851-2",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //input[@value='Google Search']",
+            "{\"id\":\"0.6341672646094851-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 597
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyLinkWithTextPresent",
+      "args": [
+        "[qmetry/qaf]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 124
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 106
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 109
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 106
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 82
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 114
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 85
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 90
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 96
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qmetry/qaf, using=link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 88
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 452,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'Git repository QAF' into 'txt.searchbox'",
+      "type": "TestStepPass",
+      "duration": 182,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'btn.search'",
+      "type": "TestStepPass",
+      "duration": 609,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "verify link with text 'qmetry/qaf' is present",
+      "type": "TestStepFail",
+      "screenshot": "img/TestGoogleSearch_12smf07uv9ir848157.png",
+      "duration": 10261,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.linkText: qmetry/qaf present : Actual By.linkText: qmetry/qaf not present",
+          "type": "Fail",
+          "screenshot": "img/TestGoogleSearch_12smf07uv9ir848157.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

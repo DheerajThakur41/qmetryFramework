@@ -1,0 +1,14 @@
+<testdata>
+	<search>
+		<searchinput>InfoStretch</searchinput>
+	</search>
+	<sample>
+		<data>
+			<name>xmlData</name>
+			<email>xmldata@malinator.com</email>
+			<pwd>xmldata123#</pwd>
+			<ssn>252-06-0029</ssn>
+			<dateofTravel>15</dateofTravel>
+		</data>
+	</sample>
+</testdata>

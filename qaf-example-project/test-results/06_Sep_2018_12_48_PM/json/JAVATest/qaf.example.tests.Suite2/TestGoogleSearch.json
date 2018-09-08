@@ -1,0 +1,157 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 362
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Git Repository QAF, txt.searchbox]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 0.7446905370166328-1",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"0.7446905370166328-1\",\"value\":[\"Git Repository QAF\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 124
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[btn.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@value='Google Search'], using=xpath}"
+          ],
+          "result": "id: 0.7446905370166328-2",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //input[@value='Google Search']",
+            "{\"id\":\"0.7446905370166328-2\"}"
+          ],
+          "result": "unknown error: Element <input value=\"Google Search\" aria-label=\"Google Search\" name=\"btnK\" type=\"submit\" jsaction=\"sf.chk\"> is not clickable at point (440, 411). Other element would receive the click: <div class=\"sbqs_c\">...</div>\n  (Session info: chrome=68.0.3440.106)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 68 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61645}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\DHEERA~1.KUM\\AppData\\Local\\Temp\\scoped_dir1940_10660}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 764c9706e84481e5bf0b1da4abeab10f",
+          "subLogs": [],
+          "duration": 70
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//input[@value='Google Search'], using=xpath}"
+          ],
+          "result": "[id: 0.7446905370166328-3, id: 0.7446905370166328-2]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@value='Google Search'], using=xpath}"
+          ],
+          "result": "id: 0.7446905370166328-2",
+          "subLogs": [],
+          "duration": 14
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyLinkWithPartialTextPresent",
+      "args": [
+        "[qaf]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=qaf, using=partial link text}"
+          ],
+          "result": "[id: 0.7228898363437981-1, id: 0.7228898363437981-2]",
+          "subLogs": [],
+          "duration": 120
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 363,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'Git Repository QAF' into 'txt.searchbox'",
+      "type": "TestStepPass",
+      "duration": 157,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'btn.search'",
+      "type": "TestStepPass",
+      "duration": 773,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "verify link with partial text 'qaf' is present",
+      "type": "TestStepPass",
+      "duration": 443,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.partialLinkText: qaf present : Actual By.partialLinkText: qaf present",
+          "type": "Pass",
+          "screenshot": "../img/TestGoogleSearch_z479u5d4wgh23120.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open the nest application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I login with 'abc1234' and password 'Test1234'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'abc1234' into 'login.username.txtBx'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Test1234' into 'login.password.txtBx'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'login.submit.Btn'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then It should be on homepage <a href="../img/NestTestPractice_1xp9qyi67amyv49656.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>verify 'home.logo.img' is visible</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Expected By.xpath: //img[@class='logo_placement'] visible : Actual By.xpath: //img[@class='logo_placement'] not visible <a href="../img/NestTestPractice_w54hroetw5dv49655.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAF Example" duration-ms="16700" started-at="2018-09-06T11:07:11Z" finished-at="2018-09-06T11:07:28Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.nest-suite.bdd.nestTestPractice()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="nestTestPractice" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="16662" started-at="2018-09-06T11:07:11Z" finished-at="2018-09-06T11:07:28Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="nestTestPractice" name="setupTest" is-config="true" duration-ms="2" started-at="2018-09-06T16:37:11Z" finished-at="2018-09-06T16:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b2da18f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="nestTestPractice" name="setup" is-config="true" duration-ms="1" started-at="2018-09-06T16:37:11Z" finished-at="2018-09-06T16:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b2da18f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="nestTestPractice" name="setupMethod" is-config="true" duration-ms="2" started-at="2018-09-06T16:37:11Z" finished-at="2018-09-06T16:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b2da18f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="nestTestPractice()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="nestTestPractice" name="nestTestPractice" duration-ms="16232" started-at="2018-09-06T16:37:11Z" description="nest Login Test" finished-at="2018-09-06T16:37:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open the nest application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I login with 'abc1234' and password 'Test1234'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'abc1234' into 'login.username.txtBx'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Test1234' into 'login.password.txtBx'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'login.submit.Btn'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then It should be on homepage <a href="../img/NestTestPractice_1xp9qyi67amyv49656.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>verify 'home.logo.img' is visible</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Expected By.xpath: //img[@class='logo_placement'] visible : Actual By.xpath: //img[@class='logo_placement'] not visible <a href="../img/NestTestPractice_w54hroetw5dv49655.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- nestTestPractice -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="nestTestPractice" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T16:37:28Z" finished-at="2018-09-06T16:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b2da18f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=nestTestPractice status=FAILURE method=scenarios.nest-suite.bdd.nestTestPractice()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open the nest application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I login with 'abc1234' and password 'Test1234'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'abc1234' into 'login.username.txtBx'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Test1234' into 'login.password.txtBx'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'login.submit.Btn'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then It should be on homepage <a href="../img/NestTestPractice_1xp9qyi67amyv49656.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>verify 'home.logo.img' is visible</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Expected By.xpath: //img[@class='logo_placement'] visible : Actual By.xpath: //img[@class='logo_placement'] not visible <a href="../img/NestTestPractice_w54hroetw5dv49655.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="nestTestPractice" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-06T16:37:28Z" finished-at="2018-09-06T16:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b2da18f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="nestTestPractice" name="afterTest" is-config="true" duration-ms="54" started-at="2018-09-06T16:37:28Z" finished-at="2018-09-06T16:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b2da18f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+    <test name="JAVA Test" duration-ms="1" started-at="2018-09-06T11:07:28Z" finished-at="2018-09-06T11:07:28Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="nestTestPractice" name="setupSuit" is-config="true" duration-ms="17" started-at="2018-09-06T16:37:11Z" finished-at="2018-09-06T16:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@48524010]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="nestTestPractice" name="afterSuit" is-config="true" duration-ms="5" started-at="2018-09-06T16:37:28Z" finished-at="2018-09-06T16:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@48524010]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- JAVA Test -->
+  </suite> <!-- QAF Example -->
+</testng-results>

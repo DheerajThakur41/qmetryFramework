@@ -1,0 +1,31 @@
+{
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "14-RC1",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Apr-2018 21:59:38"
+    },
+    "run-parameters": {
+      "baseurl": "http://10.12.40.86/nest_security_testing/",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_181",
+      "os.arch": "amd64",
+      "host": "ICPL10361",
+      "os.name": "Windows 10",
+      "user.name": "dheeraj.kumar",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1536316714886,
+  "endTime": 0
+}

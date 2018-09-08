@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QAF Example]">
+  <test name="BDD Test(failed)">
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="scenario"/>
+          <include name="setupTest"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+      <class name="qaf.example.tests.Suite1">
+        <methods>
+          <include name="setupTest"/>
+          <include name="setupSuit"/>
+          <include name="afterClass"/>
+          <include name="afterSuit"/>
+          <include name="setup"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- qaf.example.tests.Suite1 -->
+      <class name="qaf.example.tests.Suite2">
+        <methods>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- qaf.example.tests.Suite2 -->
+    </classes>
+  </test> <!-- BDD Test(failed) -->
+  <test name="JAVA Test(failed)">
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="setupTest"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+      <class name="qaf.example.tests.Suite1">
+        <methods>
+          <include name="setupTest"/>
+          <include name="testGoogleSearch"/>
+          <include name="setupSuit"/>
+          <include name="afterClass"/>
+          <include name="afterSuit"/>
+          <include name="setup"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- qaf.example.tests.Suite1 -->
+      <class name="qaf.example.tests.Suite2">
+        <methods>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="testGoogleSearch"/>
+        </methods>
+      </class> <!-- qaf.example.tests.Suite2 -->
+    </classes>
+  </test> <!-- JAVA Test(failed) -->
+</suite> <!-- Failed suite [QAF Example] -->

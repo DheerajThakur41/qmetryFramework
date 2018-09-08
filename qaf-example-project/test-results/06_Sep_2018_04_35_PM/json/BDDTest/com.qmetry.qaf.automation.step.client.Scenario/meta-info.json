@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "nest Login Test",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 1,
+        "name": "nestTestPractice",
+        "referece": "scenarios/nest-suite.bdd",
+        "resultFileName": "NestTestPractice",
+        "sign": "scenarios.nest-suite.bdd.nestTestPractice()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1536231950401,
+      "duration": 193,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

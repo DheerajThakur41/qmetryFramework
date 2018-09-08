@@ -1,0 +1,327 @@
+<html>
+<head>
+<title>TestNG:  JAVA Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>JAVA Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 06 12:48:44 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>18 seconds (18203 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='qaf.example.tests.Suite1.testGoogleSearch()'><b>testGoogleSearch</b><br>Test class: qaf.example.tests.Suite1<br>Test method: Sample Test Scenario<br/>
+<a href="#Output-302366050" onClick='toggleBox("Output-302366050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-302366050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-302366050">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Git repository QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search'</div><div  class="teststepfail"><span class="teststepfail-label">T </span>verify link with text 'qmetry/qaf' is present <a href="../img/TestGoogleSearch_1rwe723wqb8va3119.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Expected By.linkText: qmetry/qaf present : Actual By.linkText: qmetry/qaf not present <a href="../img/TestGoogleSearch_1rwe723wqb8va3119.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>qaf.example.tests.Suite1@11758f2a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=	<!-- Data for login Test -->}<br/>
+<a href="#Output-1213349904" onClick='toggleBox("Output-1213349904", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1213349904" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1213349904">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=	<data>}<br/>
+<a href="#Output-191037037" onClick='toggleBox("Output-191037037", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-191037037" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-191037037">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=		<user_name>ruchit.shah1989@gmail.com</user_name>}<br/>
+<a href="#Output-172032696" onClick='toggleBox("Output-172032696", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-172032696" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-172032696">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=		<password>aravotest</password>}<br/>
+<a href="#Output-2052256418" onClick='toggleBox("Output-2052256418", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2052256418" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2052256418">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=		<Isvalid>true</Isvalid>}<br/>
+<a href="#Output-2043318969" onClick='toggleBox("Output-2043318969", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2043318969" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2043318969">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=	</data>}<br/>
+<a href="#Output-1132967838" onClick='toggleBox("Output-1132967838", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1132967838" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1132967838">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=	<data>}<br/>
+<a href="#Output-750468423" onClick='toggleBox("Output-750468423", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-750468423" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-750468423">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=		<user_name>ruchit.mittal1985@yahoo.com</user_name>}<br/>
+<a href="#Output-182259421" onClick='toggleBox("Output-182259421", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-182259421" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-182259421">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=		<password>manoneet</password>}<br/>
+<a href="#Output-1262773598" onClick='toggleBox("Output-1262773598", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1262773598" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1262773598">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=		<Isvalid>false</Isvalid>}<br/>
+<a href="#Output-2027775614" onClick='toggleBox("Output-2027775614", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2027775614" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2027775614">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=	</data>}<br/>
+<a href="#Output-2025269734" onClick='toggleBox("Output-2025269734", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2025269734" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2025269734">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=	<data>}<br/>
+<a href="#Output-26728049" onClick='toggleBox("Output-26728049", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26728049" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26728049">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=		<user_name>wornguser@domain.com</user_name>}<br/>
+<a href="#Output-502800944" onClick='toggleBox("Output-502800944", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-502800944" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-502800944">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=		<password>wrongpwd</password>}<br/>
+<a href="#Output-111156771" onClick='toggleBox("Output-111156771", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-111156771" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-111156771">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=		<Isvalid>false</Isvalid>}<br/>
+<a href="#Output-2039810346" onClick='toggleBox("Output-2039810346", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2039810346" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2039810346">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=	</data>}<br/>
+<a href="#Output-597190999" onClick='toggleBox("Output-597190999", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-597190999" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-597190999">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=	<!-- file may contain other data -->}<br/>
+<a href="#Output-112302969" onClick='toggleBox("Output-112302969", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-112302969" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-112302969">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.SampleTest.readXml()'><b>readXml</b><br>Test class: qaf.example.tests.SampleTest<br>Test method: data Fetching from Xml File<br>Parameters: {<root>=</root>}<br/>
+<a href="#Output-1978869058" onClick='toggleBox("Output-1978869058", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1978869058" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1978869058">
+<div style="display:block;margin-left:10px;"></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>qaf.example.tests.SampleTest@1a3869f4</td></tr>
+<tr>
+<td title='qaf.example.tests.Suite2.testGoogleSearch()'><b>testGoogleSearch</b><br>Test class: qaf.example.tests.Suite2<br>Test method: test Google Search<br/>
+<a href="#Output-1366342900" onClick='toggleBox("Output-1366342900", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1366342900" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1366342900">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Git Repository QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify link with partial text 'qaf' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.partialLinkText: qaf present : Actual By.partialLinkText: qaf present <a href="../img/TestGoogleSearch_z479u5d4wgh23120.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>qaf.example.tests.Suite2@e720b71</td></tr>
+</table><p>
+</body>
+</html>

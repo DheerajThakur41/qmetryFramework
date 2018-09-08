@@ -1,0 +1,19 @@
+<root>
+	<!-- Data for login Test -->
+	<data>
+		<user_name>ruchit.shah1989@gmail.com</user_name>
+		<password>aravotest</password>
+		<Isvalid>true</Isvalid>
+	</data>
+	<data>
+		<user_name>ruchit.mittal1985@yahoo.com</user_name>
+		<password>manoneet</password>
+		<Isvalid>false</Isvalid>
+	</data>
+	<data>
+		<user_name>wornguser@domain.com</user_name>
+		<password>wrongpwd</password>
+		<Isvalid>false</Isvalid>
+	</data>
+	<!-- file may contain other data -->
+</root>

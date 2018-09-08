@@ -1,0 +1,302 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://10.12.40.86/nest_security_testing/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1259
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "login",
+      "args": [
+        "[abc1234, Test1234]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[abc1234, login.username.txtBx]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=username, using=name}"
+              ],
+              "result": "id: 0.8107377044140109-1",
+              "subLogs": [],
+              "duration": 202
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.name: username",
+                "{\"id\":\"0.8107377044140109-1\",\"value\":[\"abc1234\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 98
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Test1234, login.password.txtBx]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=password, using=name}"
+              ],
+              "result": "id: 0.8107377044140109-2",
+              "subLogs": [],
+              "duration": 18
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.name: password",
+                "{\"id\":\"0.8107377044140109-2\",\"value\":[\"Test1234\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 82
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[login.submit.Btn]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//button[@type='submit'], using=xpath}"
+              ],
+              "result": "id: 0.8107377044140109-3",
+              "subLogs": [],
+              "duration": 17
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //button[@type='submit']",
+                "{\"id\":\"0.8107377044140109-3\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 70
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyLogin",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "verifyVisible",
+          "args": [
+            "[home.logo.img]"
+          ],
+          "result": "fail",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//img[@class='logo_placement'], using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 32
+            },
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//img[@class='logo_placement'], using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 17
+            },
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//img[@class='logo_placement'], using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 18
+            },
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//img[@class='logo_placement'], using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 17
+            },
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//img[@class='logo_placement'], using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 18
+            },
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//img[@class='logo_placement'], using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 17
+            },
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//img[@class='logo_placement'], using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 16
+            },
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//img[@class='logo_placement'], using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 18
+            },
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//img[@class='logo_placement'], using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 19
+            },
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//img[@class='logo_placement'], using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 17
+            },
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//img[@class='logo_placement'], using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 18
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open the nest application",
+      "type": "TestStepPass",
+      "duration": 4630,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I login with 'abc1234' and password 'Test1234'",
+      "type": "TestStepPass",
+      "duration": 517,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'abc1234' into 'login.username.txtBx'",
+          "type": "TestStepPass",
+          "duration": 322,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'Test1234' into 'login.password.txtBx'",
+          "type": "TestStepPass",
+          "duration": 101,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'login.submit.Btn'",
+          "type": "TestStepPass",
+          "duration": 88,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then It should be on homepage",
+      "type": "TestStepFail",
+      "screenshot": "img/NestTestPractice_17g7bz6h4i6u422587.png",
+      "duration": 10566,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "verify 'home.logo.img' is visible",
+          "type": "TestStepFail",
+          "duration": 10565,
+          "threshold": 0,
+          "subCheckPoints": [
+            {
+              "message": "Expected By.xpath: //img[@class='logo_placement'] visible : Actual By.xpath: //img[@class='logo_placement'] not visible",
+              "type": "Fail",
+              "screenshot": "img/NestTestPractice_1gr0yp92hpwhv22586.png",
+              "duration": 0,
+              "threshold": 0,
+              "subCheckPoints": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

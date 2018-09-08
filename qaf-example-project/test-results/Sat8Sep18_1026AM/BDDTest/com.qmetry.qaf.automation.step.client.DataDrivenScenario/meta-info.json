@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "user_name": "ashish.biradar1",
+          "name": "Ashish",
+          "designation": "Automation Lead",
+          "password": "Test@1234",
+          "band": "5B",
+          "location": "",
+          "project": ""
+        }
+      ],
+      "metaData": {
+        "description": "nest Login Test",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "login.regular_user",
+        "lineNo": 1,
+        "name": "nestTestPractice",
+        "referece": "scenarios/nest-suite.bdd",
+        "resultFileName": "NestTestPractice",
+        "sign": "scenarios.nest-suite.bdd.nestTestPractice( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1536382600908,
+      "duration": 8376,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

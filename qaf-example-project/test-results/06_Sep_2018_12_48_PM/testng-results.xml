@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="11" total="31" passed="19">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Git repository QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search'</div><div  class="teststepfail"><span class="teststepfail-label">T </span>verify link with text 'qmetry/qaf' is present <a href="../img/TestGoogleSearch_1rwe723wqb8va3119.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Expected By.linkText: qmetry/qaf present : Actual By.linkText: qmetry/qaf not present <a href="../img/TestGoogleSearch_1rwe723wqb8va3119.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Git Repository QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify link with partial text 'qaf' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.partialLinkText: qaf present : Actual By.partialLinkText: qaf present <a href="../img/TestGoogleSearch_z479u5d4wgh23120.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAF Example" duration-ms="18203" started-at="2018-09-06T07:18:44Z" finished-at="2018-09-06T07:19:02Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="Suite1.testGoogleSearch()[pri:0, instance:qaf.example.tests.Suite1@11758f2a]" name="testGoogleSearch" class="qaf.example.tests.Suite1"/>
+        <method signature="Suite2.testGoogleSearch()[pri:0, instance:qaf.example.tests.Suite2@e720b71]" name="testGoogleSearch" class="qaf.example.tests.Suite2"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="JAVA Test" duration-ms="18203" started-at="2018-09-06T07:18:44Z" finished-at="2018-09-06T07:19:02Z">
+      <class name="qaf.example.tests.Suite1">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Suite1@11758f2a]" name="setup" is-config="true" duration-ms="3" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Suite1@11758f2a]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.Suite1.testGoogleSearch()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="testGoogleSearch()[pri:0, instance:qaf.example.tests.Suite1@11758f2a]" name="testGoogleSearch" duration-ms="15874" started-at="2018-09-06T12:48:44Z" description="Sample Test Scenario" finished-at="2018-09-06T12:49:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Git repository QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search'</div><div  class="teststepfail"><span class="teststepfail-label">T </span>verify link with text 'qmetry/qaf' is present <a href="../img/TestGoogleSearch_1rwe723wqb8va3119.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Expected By.linkText: qmetry/qaf present : Actual By.linkText: qmetry/qaf not present <a href="../img/TestGoogleSearch_1rwe723wqb8va3119.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearch -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.Suite1@11758f2a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:49:00Z" finished-at="2018-09-06T12:49:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testGoogleSearch status=FAILURE method=Suite1.testGoogleSearch()[pri:0, instance:qaf.example.tests.Suite1@11758f2a] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Git repository QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search'</div><div  class="teststepfail"><span class="teststepfail-label">T </span>verify link with text 'qmetry/qaf' is present <a href="../img/TestGoogleSearch_1rwe723wqb8va3119.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Expected By.linkText: qmetry/qaf present : Actual By.linkText: qmetry/qaf not present <a href="../img/TestGoogleSearch_1rwe723wqb8va3119.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Suite1@11758f2a]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-06T12:49:00Z" finished-at="2018-09-06T12:49:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- qaf.example.tests.Suite1 -->
+      <class name="qaf.example.tests.Suite2">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Suite2@e720b71]" name="setup" is-config="true" duration-ms="1" started-at="2018-09-06T12:49:00Z" finished-at="2018-09-06T12:49:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Suite2@e720b71]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:49:00Z" finished-at="2018-09-06T12:49:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.Suite2.testGoogleSearch()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="testGoogleSearch()[pri:0, instance:qaf.example.tests.Suite2@e720b71]" name="testGoogleSearch" duration-ms="1739" started-at="2018-09-06T12:49:00Z" description="test Google Search" finished-at="2018-09-06T12:49:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Git Repository QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify link with partial text 'qaf' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.partialLinkText: qaf present : Actual By.partialLinkText: qaf present <a href="../img/TestGoogleSearch_z479u5d4wgh23120.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearch -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Suite2@e720b71]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-06T12:49:02Z" finished-at="2018-09-06T12:49:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.Suite2@e720b71]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-06T12:49:02Z" finished-at="2018-09-06T12:49:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testGoogleSearch status=SUCCESS method=Suite2.testGoogleSearch()[pri:0, instance:qaf.example.tests.Suite2@e720b71] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Git Repository QAF' into 'txt.searchbox'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify link with partial text 'qaf' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.partialLinkText: qaf present : Actual By.partialLinkText: qaf present <a href="../img/TestGoogleSearch_z479u5d4wgh23120.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- qaf.example.tests.Suite2 -->
+      <class name="qaf.example.tests.SampleTest">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupSuit" is-config="true" duration-ms="20" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupTest" is-config="true" duration-ms="2" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setup" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="3" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=	<!-- Data for login Test -->}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="1" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=	<data>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="2" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="0" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=		<user_name>ruchit.shah1989@gmail.com</user_name>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="1" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=		<password>aravotest</password>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="1" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=		<Isvalid>true</Isvalid>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="0" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=	</data>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="1" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=	<data>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="1" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=		<user_name>ruchit.mittal1985@yahoo.com</user_name>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="1" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=		<password>manoneet</password>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="1" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=		<Isvalid>false</Isvalid>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="1" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=	</data>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="1" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=	<data>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="0" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=		<user_name>wornguser@domain.com</user_name>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="0" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=		<password>wrongpwd</password>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="1" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=		<Isvalid>false</Isvalid>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="2" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="2" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=	</data>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="4" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="1" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=	<!-- file may contain other data -->}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="setupMethod" is-config="true" duration-ms="3" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.SampleTest.readXml(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="readXml" duration-ms="1" started-at="2018-09-06T12:48:44Z" description="data Fetching from Xml File" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{<root>=</root>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readXml -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readXml status=SUCCESS method=SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-06T12:48:44Z" finished-at="2018-09-06T12:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterTest" is-config="true" duration-ms="105" started-at="2018-09-06T12:49:02Z" finished-at="2018-09-06T12:49:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@1a3869f4]" name="afterSuit" is-config="true" duration-ms="2" started-at="2018-09-06T12:49:02Z" finished-at="2018-09-06T12:49:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@564718df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- qaf.example.tests.SampleTest -->
+    </test> <!-- JAVA Test -->
+  </suite> <!-- QAF Example -->
+</testng-results>

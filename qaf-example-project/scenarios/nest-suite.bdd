@@ -1,0 +1,8 @@
+SCENARIO: nestTestPractice
+META-DATA: {"description":"nest Login Test","groups":["SMOKE"],"key":"login.regular_user"}
+	Given I open the nest application
+	When I login with '${user_name}' and password '${password}'
+	Then I should be on homepage '${name}'
+	And I Logout from APP
+END
+	

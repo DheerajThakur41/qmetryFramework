@@ -1,0 +1,24 @@
+16:37:11 scenario.file.loc[Ljava.lang.String;@57e1b0c
+16:37:11 loading BDD file: D:\Etc\qaf-example-project-skeleton\qaf-example-project\.\scenarios\nest-suite.bdd
+16:37:11 total test found: 1
+16:37:11 
+
+Executing scenario: nestTestPractice - nest Login Test
+16:37:11 pkg: com.qmetry.qaf.automation.step
+16:37:11 pkg: com.nest.automation.steps
+16:37:11 Found duplicate step to load [] with [lower] prority then []
+16:37:11 Invoking Teststep: Given I open the nest application
+16:37:16 Completed Teststep: Given I open the nest application
+16:37:16 Invoking Teststep: When I login with 'abc1234' and password 'Test1234' with arguments: [abc1234, Test1234]
+16:37:16 Invoking Teststep: sendKeys {text} into {loc} with arguments: [abc1234, login.username.txtBx]
+16:37:16 Completed Teststep: sendKeys {text} into {loc} with arguments: [abc1234, login.username.txtBx]
+16:37:16 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Test1234, login.password.txtBx]
+16:37:17 Completed Teststep: sendKeys {text} into {loc} with arguments: [Test1234, login.password.txtBx]
+16:37:17 Invoking Teststep: click on {loc} with arguments: [login.submit.Btn]
+16:37:17 Completed Teststep: click on {loc} with arguments: [login.submit.Btn]
+16:37:17 Completed Teststep: When I login with 'abc1234' and password 'Test1234' with arguments: [abc1234, Test1234]
+16:37:17 Invoking Teststep: Then It should be on homepage
+16:37:17 Invoking Teststep: verify {loc} is visible with arguments: [home.logo.img]
+16:37:27 Completed Teststep: verify {loc} is visible with arguments: [home.logo.img]
+16:37:27 Completed Teststep: Then It should be on homepage
+16:37:27 Competed scenario: nestTestPractice with status SUCESS

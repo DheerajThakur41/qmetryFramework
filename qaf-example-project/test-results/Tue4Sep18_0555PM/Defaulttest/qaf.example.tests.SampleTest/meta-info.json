@@ -1,0 +1,472 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t<!-- Data for login Test -->"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXml",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952089,
+      "duration": 8,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t<data>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlHlDaPzSbHo",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952121,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t\t<user_name>ruchit.shah1989@gmail.com</user_name>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlKRQYLJpFOt",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952145,
+      "duration": 2,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 4,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t\t<password>aravotest</password>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlYDVRVdSkRX",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952163,
+      "duration": 5,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 5,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t\t<Isvalid>true</Isvalid>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlTrnxOOkKdG",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952189,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 6,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t</data>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmluLHIBvredF",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952222,
+      "duration": 2,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 7,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t<data>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmllzroFflDdO",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952242,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 8,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t\t<user_name>ruchit.mittal1985@yahoo.com</user_name>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlsCEIpMfPah",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952263,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 9,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t\t<password>manoneet</password>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlbiCkBSujCl",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952282,
+      "duration": 2,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 10,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t\t<Isvalid>false</Isvalid>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlouiEaCnhog",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952304,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 11,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t</data>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlZaPyPddZdT",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952334,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 12,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t<data>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlZmicHmWCTk",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952358,
+      "duration": 4,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 13,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t\t<user_name>wornguser@domain.com</user_name>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlnKiKIzMwrN",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952382,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 14,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t\t<password>wrongpwd</password>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlLNDnsxIyje",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952407,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 15,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t\t<Isvalid>false</Isvalid>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlJRcecGAobG",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952429,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 16,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t</data>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlFfmQozDiwH",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952454,
+      "duration": 4,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 17,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "\t<!-- file may contain other data -->"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlqfMxhaCQjy",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952479,
+      "duration": 6,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 18,
+      "type": "test",
+      "args": [
+        {
+          "<root>": "</root>"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/LoginDataXml.xml",
+        "description": "data Fetching from Xmal File",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "readXml",
+        "resultFileName": "ReadXmlofrDiNPmvD",
+        "sheetName": "",
+        "sign": "SampleTest.readXml(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@7fc2413d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536063952505,
+      "duration": 2,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+13:49:00 scenario.file.loc[Ljava.lang.String;@704a52ec
+13:49:00 loading BDD file: D:\Etc\qaf-example-project-skeleton\qaf-example-project\.\scenarios\suite1.bdd
+13:49:00 total test found: 1
+13:49:00 
+
+Executing scenario: SampleTest - Sample Test Scenario
+13:49:00 pkg: com.qmetry.qaf.automation.step
+13:49:00 pkg: qaf.example.steps
+13:49:00 Found duplicate step to load [] with [lower] prority then []
+13:49:00 Invoking Teststep: Given get '/' with arguments: [/]
+13:49:05 Completed Teststep: Given get '/' with arguments: [/]
+13:49:05 Invoking Teststep: When sendKeys 'Git reporsitory QAF' into 'txt.searchbox' with arguments: [Git reporsitory QAF, txt.searchbox]
+13:49:05 Completed Teststep: When sendKeys 'Git reporsitory QAF' into 'txt.searchbox' with arguments: [Git reporsitory QAF, txt.searchbox]
+13:49:05 Invoking Teststep: And click on 'btn.search' with arguments: [btn.search]
+13:49:07 Completed Teststep: And click on 'btn.search' with arguments: [btn.search]
+13:49:07 Invoking Teststep: Then verify link with partial text 'GitHub' is present with arguments: [GitHub]
+13:49:07 Completed Teststep: Then verify link with partial text 'GitHub' is present with arguments: [GitHub]
+13:49:07 Competed scenario: SampleTest with status SUCESS

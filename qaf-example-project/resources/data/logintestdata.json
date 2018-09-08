@@ -1,0 +1,5 @@
+[
+{"username":"admin","password":"123abc123", "Isvalid":"false"},
+{"username":"Admin","password":"test","Isvalid":"false"},
+{"username":"admin","password":"admin123","Isvalid":"true"}
+]

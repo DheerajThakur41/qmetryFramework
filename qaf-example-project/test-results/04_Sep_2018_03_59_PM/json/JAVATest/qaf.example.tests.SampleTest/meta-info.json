@@ -1,0 +1,116 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "password": "pwdtest",
+          "isvalid": "true",
+          "user_name": "ruchita.shah@gmail.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "data fetching test for csv file",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "login",
+        "resultFileName": "Login",
+        "sheetName": "",
+        "sign": "SampleTest.login(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@58134517]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536057023519,
+      "duration": 4,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "password": "wrongpwd",
+          "isvalid": "false",
+          "user_name": "ruchita.shah@gmail.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "data fetching test for csv file",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "login",
+        "resultFileName": "LoginsCVLJRyVed",
+        "sheetName": "",
+        "sign": "SampleTest.login(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@58134517]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536057023537,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "password": "pwdtest",
+          "isvalid": "false",
+          "user_name": "wronguser@domain.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "data fetching test for csv file",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "login",
+        "resultFileName": "LoginrVeeiGujig",
+        "sheetName": "",
+        "sign": "SampleTest.login(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@58134517]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536057023556,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 4,
+      "type": "test",
+      "args": [
+        {
+          "password": "wrongpwd",
+          "isvalid": "false ",
+          "user_name": "wronguser@domain.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "data fetching test for csv file",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "login",
+        "resultFileName": "LoginucTDYadMXS",
+        "sheetName": "",
+        "sign": "SampleTest.login(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@58134517]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536057023574,
+      "duration": 2,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

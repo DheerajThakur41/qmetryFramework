@@ -1,0 +1,58 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "color": "green",
+          "fruit": "grapes"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "login Functionality Tes",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "logi",
+        "resultFileName": "Logi",
+        "sheetName": "",
+        "sign": "SampleTest.logi(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@3d0f8e03]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536052383180,
+      "duration": 8,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "color": "yellow",
+          "fruit": "banana"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "login Functionality Tes",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "logi",
+        "resultFileName": "LogiNlDcilhGky",
+        "sheetName": "",
+        "sign": "SampleTest.logi(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@3d0f8e03]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536052383208,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

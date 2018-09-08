@@ -1,0 +1,228 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "password": "pwdtest",
+          "isvalid": "true",
+          "user_name": "ruchita.shah@gmail.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "login Functionality Tes",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "logi",
+        "resultFileName": "Logi",
+        "sheetName": "",
+        "sign": "SampleTest.logi(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@5427c60c]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536054487182,
+      "duration": 10,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "password": "wrongpwd",
+          "isvalid": "false",
+          "user_name": "ruchita.shah@gmail.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "login Functionality Tes",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "logi",
+        "resultFileName": "LogipeevUkrRQY",
+        "sheetName": "",
+        "sign": "SampleTest.logi(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@5427c60c]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536054487221,
+      "duration": 4,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "password": "pwdtest",
+          "isvalid": "false",
+          "user_name": "wronguser@domain.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "login Functionality Tes",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "logi",
+        "resultFileName": "LogiqjqBGSmdoC",
+        "sheetName": "",
+        "sign": "SampleTest.logi(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@5427c60c]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536054487252,
+      "duration": 2,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 4,
+      "type": "test",
+      "args": [
+        {
+          "password": "wrongpwd",
+          "isvalid": "false ",
+          "user_name": "wronguser@domain.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "login Functionality Tes",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "logi",
+        "resultFileName": "LogierZSOSPgBo",
+        "sheetName": "",
+        "sign": "SampleTest.logi(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@5427c60c]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536054487271,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "password": "pwdtest",
+          "isvalid": "true",
+          "user_name": "ruchita.shah@gmail.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "login Functionality Tes",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "logi",
+        "resultFileName": "LogiqRNhBimxtH",
+        "sheetName": "",
+        "sign": "SampleTest.logi(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@5427c60c]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536054505588,
+      "duration": 9,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "password": "wrongpwd",
+          "isvalid": "false",
+          "user_name": "ruchita.shah@gmail.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "login Functionality Tes",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "logi",
+        "resultFileName": "LogiqGLuZaKobw",
+        "sheetName": "",
+        "sign": "SampleTest.logi(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@5427c60c]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536054505640,
+      "duration": 2,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "password": "pwdtest",
+          "isvalid": "false",
+          "user_name": "wronguser@domain.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "login Functionality Tes",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "logi",
+        "resultFileName": "LogiypmHDvmfow",
+        "sheetName": "",
+        "sign": "SampleTest.logi(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@5427c60c]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536054505658,
+      "duration": 2,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 4,
+      "type": "test",
+      "args": [
+        {
+          "password": "wrongpwd",
+          "isvalid": "false ",
+          "user_name": "wronguser@domain.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/testdata.csv",
+        "description": "login Functionality Tes",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "logi",
+        "resultFileName": "LogiYnqOLMDCsF",
+        "sheetName": "",
+        "sign": "SampleTest.logi(java.util.Map)[pri:0, instance:qaf.example.tests.SampleTest@5427c60c]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1536054505678,
+      "duration": 3,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

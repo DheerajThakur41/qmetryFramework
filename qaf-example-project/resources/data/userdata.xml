@@ -1,0 +1,171 @@
+<root>
+	<!-- Data for login Test -->
+	<login>
+	<regular_user> 
+		<!-- <data> -->
+			<user_name>ashish.biradar1</user_name>
+			<name>Ashish</name>
+			<designation>Automation Lead</designation>
+			<password>Test@1234</password>
+			<band>5B</band>
+			<location></location>
+			<project></project>
+		<!-- </data>-->
+		</regular_user>
+		<data>
+			<user_name>abc1234</user_name>
+			<name>abc12</name>
+			<designation>Employee</designation>
+			<password>Test@1234</password>
+			<band>6A</band>
+			<location>Ahmedabad</location>
+			<project></project>
+		</data>
+		<data>
+			<user_name>aaa.rrrr</user_name>
+			<name>aaa</name>
+			<designation>Ass QA Engg</designation>
+			<password>Test@1234</password>
+			<band>6B</band>
+			<location>Ahmedabad</location>
+			<project>ABCD12</project>
+		</data>
+		<data>
+			<user_name>abc.abc</user_name>
+			<name>abc</name>
+			<designation>Automation Engineer</designation>
+			<password>Test@1234</password>
+			<band>6A</band>
+			<location>Ahmedabad2</location>
+			<project>ABCD12,Nest Test</project>
+		</data>
+		<data>
+			<user_name>aaaaa</user_name>
+			<name>aaaa</name>
+			<designation>Ex employee</designation>
+			<password>Test@1234</password>
+			<band>NA</band>
+			<location></location>
+			<project></project>
+		</data>
+		<data>
+			<user_name>abcd.abcd</user_name>
+			<name>abcd</name>
+			<designation>Assoc Software Engineer</designation>
+			<password>Test@1234</password>
+			<band>7</band>
+			<location>Ahmedabad2</location>
+			<project></project>
+		</data>
+		<data>
+			<user_name>abhilasha.deolikar</user_name>
+			<name>Abhilasha</name>
+			<designation>Project Manager</designation>
+			<password>Test@1234</password>
+			<band>4</band>
+			<location></location>
+			<project></project>
+		</data>
+		<data>
+			<user_name>tushit.shah</user_name>
+			<name>Tushit</name>
+			<designation>Employee</designation>
+			<password>tushit.shah</password>
+			<band></band>
+			<location></location>
+			<project></project>
+		</data>
+		<data>
+			<user_name>keshav.kumar</user_name>
+			<name>Keshav</name>
+			<designation>Delivery manager</designation>
+			<password>keshav.kumar</password>
+			<band>1</band>
+			<location>Ahmedabad</location>
+			<project></project>
+		</data>
+		<data>
+			<user_name>mehul</user_name>
+			<name>Mehul</name>
+			<designation>IT</designation>
+			<password>mehul@1234</password>
+			<band>2</band>
+			<location>Ahmedabad</location>
+			<project></project>
+		</data>
+		<data>
+			<user_name>test.emp5</user_name>
+			<name>test</name>
+			<designation>Assoc Software Engineer</designation>
+			<password>Test@1234</password>
+			<band>7</band>
+			<location>Santa Clara US</location>
+			<project></project>
+		</data>
+		<data>
+			<user_name>test.emp6</user_name>
+			<name>test</name>
+			<designation>Assoc Software Engineer</designation>
+			<password>Test@1234</password>
+			<band>7</band>
+			<location>London</location>
+			<project></project>
+		</data>
+		<data>
+			<user_name>gaurav.parekh</user_name>
+			<name>Gaurav</name>
+			<designation>HR</designation>
+			<password>gaurav.parekh</password>
+			<band></band>
+			<location></location>
+			<project></project>
+		</data>
+		<data>
+			<user_name>apexa.bhatt</user_name>
+			<name>Apexa</name>
+			<designation>Configure Visa</designation>
+			<password>apexa.bhatt</password>
+			<band></band>
+			<location></location>
+			<project></project>
+		</data>
+		<data>
+			<user_name>piyush.sharma</user_name>
+			<name>Piyush</name>
+			<designation>Automation Engineer</designation>
+			<password>piyush.sharma</password>
+			<band>6A</band>
+			<location>Ahmedabad</location>
+			<project>Nest Test</project>
+		</data>
+		<data>
+			<user_name>emp.test.2</user_name>
+			<name>emp</name>
+			<designation>Configure Visa</designation>
+			<password>emp.test.2</password>
+			<band></band>
+			<location>London</location>
+			<project></project>
+		</data>
+		<data>
+
+			<user_name>emp.test.1</user_name>
+			<name>emp</name>
+			<designation></designation>
+			<password>emp.test.1</password>
+			<band></band>
+			<location>Santa Clara</location>
+			<project></project>
+		</data>
+		<data>
+			<user_name>Virat Kohali</user_name>
+			<name>virat</name>
+			<designation></designation>
+			<password>Virat Kohali</password>
+			<band></band>
+			<location>London</location>
+			<project></project>
+		</data>
+		<!-- file may contain other data -->
+	</login>
+</root>

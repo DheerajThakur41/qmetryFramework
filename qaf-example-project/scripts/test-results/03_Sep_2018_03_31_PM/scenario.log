@@ -1,0 +1,97 @@
+15:31:44 scenario.file.loc[Ljava.lang.String;@67205a84
+15:31:44 total test found: 0
+15:31:44 Invoking Teststep: get {url} with arguments: [/]
+15:31:45 Failure Teststep: get {url} with arguments: [/]
+com.qmetry.qaf.automation.step.JavaStepReporter$JPThrowable: org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:144)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.qmetry.qaf.automation.step.CommonStep.get(CommonStep.java:303)
+	at qaf.example.tests.Suite1.testGoogleSearch(Suite1.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.TestNG.privateMain(TestNG.java:1434)
+	at org.testng.TestNG.main(TestNG.java:1403)
+Caused by: org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.qmetry.qaf.automation.step.CommonStep.get_aroundBody24(CommonStep.java:304)
+	at com.qmetry.qaf.automation.step.CommonStep$AjcClosure25.run(CommonStep.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	... 28 more
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	... 35 more
+Caused by: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:129)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:249)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:241)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:416)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$5(UiDriverFactory.java:406)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:221)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 37 more
+Caused by: org.openqa.selenium.WebDriverException: java.lang.RuntimeException: XPathFactory#newInstance() failed to create an XPathFactory for the default object model: http://java.sun.com/jaxp/xpath/dom with the XPathFactoryConfigurationException: javax.xml.xpath.XPathFactoryConfigurationException: java.util.ServiceConfigurationError: javax.xml.xpath.XPathFactory: jar:file:/C:/Users/Dheeraj.kumar/.ivy2/cache/net.sf.saxon/Saxon-HE/jars/Saxon-HE-9.4.jar!/META-INF/services/javax.xml.xpath.XPathFactory:2: Illegal configuration-file syntax
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL10361', ip: '10.12.41.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:142)
+	at org.openqa.selenium.firefox.internal.FileExtension.writeTo(FileExtension.java:61)
+	at org.openqa.selenium.firefox.internal.ClasspathExtension.writeTo(ClasspathExtension.java:64)
+	at org.openqa.selenium.firefox.FirefoxProfile.installExtensions(FirefoxProfile.java:443)
+	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:421)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:85)
+	... 53 more
+Caused by: java.lang.RuntimeException: XPathFactory#newInstance() failed to create an XPathFactory for the default object model: http://java.sun.com/jaxp/xpath/dom with the XPathFactoryConfigurationException: javax.xml.xpath.XPathFactoryConfigurationException: java.util.ServiceConfigurationError: javax.xml.xpath.XPathFactory: jar:file:/C:/Users/Dheeraj.kumar/.ivy2/cache/net.sf.saxon/Saxon-HE/jars/Saxon-HE-9.4.jar!/META-INF/services/javax.xml.xpath.XPathFactory:2: Illegal configuration-file syntax
+	at javax.xml.xpath.XPathFactory.newInstance(Unknown Source)
+	at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:100)
+	... 58 more
+15:31:45 Completed Teststep: get {url} with arguments: [/]
