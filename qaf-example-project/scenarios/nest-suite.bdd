@@ -1,8 +1,15 @@
-SCENARIO: nestTestPractice
+SCENARIO: nest Application validLogin
 META-DATA: {"description":"nest Login Test","groups":["SMOKE"],"key":"login.regular_user"}
 	Given I open the nest application
 	When I login with '${user_name}' and password '${password}'
-	Then I should be on homepage '${name}'
+	Then I should be on '${name}' homepage
 	And I Logout from APP
 END
-	
+
+SCENARIO: nest Application InvalidLogin
+META-DATA: {"description":"nest InvalidLogin Test","groups":["SMOKE"],"key":"login.invalid_user","enabled":false}
+	Given I open the nest application
+	When I login with '${user_name}' and password '${password}'
+	Then It should show ERROR '${error_msg}'
+END
+		
