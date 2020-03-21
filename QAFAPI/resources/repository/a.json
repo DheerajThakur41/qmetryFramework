@@ -1,0 +1,19 @@
+{
+	"data": {
+		"attributes": {
+			"original-image-url": "https:\/\/cdn.pixabay.com\/photo\/2013\/11\/23\/16\/25\/birds-216412_1280.jpg",
+			"password": "Test@123456w",
+			"twitter-url": "http:\/\/twitter.com\/twitter",
+			"avatar_url": "http:\/\/example.com\/example.png",
+			"instagram-url": "http:\/\/instagram.com\/instagram",
+			"contact": "example",
+			"facebook-url": "http:\/\/facebook.com\/facebook",
+			"details": "Dummy User",
+			"email": "${newUserMail_id}",
+			"first-name": "rahul Jain",
+			"google-plus-url": "http:\/\/plus.google.com\/plus.google",
+			"last-name": "Doe"
+		},
+		"type": "user"
+	}
+}

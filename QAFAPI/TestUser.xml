@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="1" name="TestUser" enabled="true" preserve-order="true">
+		<classes>
+			<class name="com.qaf.api.test.TestUserApi">
+				<methods>
+					<include name="deleteUser" />
+					<include name="getUserDetail" />
+					<include name="createUser" />
+					<include name="listofallUser" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- TestUser -->
+	<test thread-count="1" name="EventTest">
+		<classes>
+			<class name="com.qaf.api.test.EventTestApi">
+				<methods>
+					<include name="deleteEvent" />
+					<include name="getEventDetais" />
+					<include name="createNewEvents" />
+					<include name="listofallEvents" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- EventTest -->
+	<test thread-count="1" name="EventTopic">
+		<classes>
+			<class name="com.qaf.api.test.TestEventTopicApi">
+				<methods>
+					<include name="deleteEventTopic" />
+					<include name="eventTopicDetails" />
+					<include name="createEventTopic" />
+					<include name="getListofEventTopic" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- EventTopic -->
+</suite> <!-- Suite -->

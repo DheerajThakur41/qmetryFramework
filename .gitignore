@@ -1,0 +1,16 @@
+/target
+/test-results
+/img
+/test-output
+.classpath
+*/.classpath
+*/.project
+/target/
+*.class
+*.settings
+*/bin/
+/.metadata/
+*/test-output/
+
+*/test-results/
+*/.gitignore

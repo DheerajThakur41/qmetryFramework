@@ -1,0 +1,26 @@
+SCENARIO: Valid User Login
+META-DATA: {"description": "Valid Login Test Scenario","groups":[ "SMOKE" ], "priority":0}
+    When user requests 'login.validLoginData'
+    Then response should have status code '200'
+    And  response should have status 'OK'
+    And say 'token' is value at jsonpath '$.access_token'
+END
+
+SCENARIO: Invalid User Login
+META-DATA: {"description": "Invalid Login Test Scenario","groups":[ "SMOKE" ],"enabled":false}
+    When user requests 'login.invalidLoginData'
+    Then response should have status code '401'
+END
+
+SCENARIO: Get User Details
+META-DATA: {"description": "Get User details","groups":[ "SMOKE" ],"enabled":true,"priority":1}
+    When user requests 'user.getUserDetails'
+    Then response should have status code '200'
+END
+
+SCENARIO: create User Login
+META-DATA: {"description": "create User","groups":[ "SMOKE" ],"enabled":false,"priority":2}
+    When user requests 'user.create'
+    Then response should have status code '201'
+END
+
